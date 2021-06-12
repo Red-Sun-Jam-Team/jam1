@@ -7,6 +7,10 @@ TagManager:
   - health_harm
   - health_heal
   - health_set
+  - mana_harm
+  - mana_heal
+  - mana_set
+  - pointer
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ public class Spawn : MonoBehaviour {
     }
     void DoSpawn(GameObject s, Vector2 v) {
         var inst = Instantiate(s);
-        inst.GetComponent<RigidBody2D>().AddForce(v);
+        inst.GetComponent<Rigidbody2D>().AddForce(v);
     }
     void DoSpawn(GameObject s) {
         var inst = Instantiate(s);
